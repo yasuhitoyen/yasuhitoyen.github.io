@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form</title>
+  </head>
+  <body>
+	Regular input field
+    <form">
+      <input type="text" placeholder="Full Name" name="full_name" />
+      <input type="submit"/>
+    </form>
+	<form>
+		Password input field
+		<input type="password" placeholder="Enter your password" name="password">
+	</form>
+	<form>
+		Option input
+		<input type="radio" name="number" value="first"> First
+		<input type="radio" name="number" value="second"> Second
+		<input type="radio" name="number" value="third"> Third
+
+	</form>
+	<form>
+		Drop-down input
+		<input name="country" list="countries" placeholder="Country">
+		<datalist id="countries">
+			<option value="Afghanistan"></option>
+			<option value="Albania"></option>
+			<option value="Algeria"></option>
+			<option value="Nigeria"></option>
+		</datalist>
+	</form>
+  </body>
+</html>
